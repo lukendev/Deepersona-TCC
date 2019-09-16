@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 544}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -45,7 +45,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 544}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 494}
   m_MaxSize: {x: 18008, y: 14044}
   vertical: 0
-  controlID: 43
+  controlID: 116
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 444}
   m_MaxSize: {x: 4002, y: 8044}
   vertical: 1
-  controlID: 67
+  controlID: 117
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -221,7 +221,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 494}
   m_MaxSize: {x: 10004, y: 14044}
   vertical: 1
-  controlID: 111
+  controlID: 55
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -502,9 +502,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 6.2078643, y: 1.3005364, z: 4.9306593}
+    m_Target: {x: 7.7738767, y: 0.72425056, z: 7.488985}
     speed: 2
-    m_Value: {x: 6.2078643, y: 1.3005364, z: 4.9306593}
+    m_Value: {x: 7.7738767, y: 0.72425056, z: 7.488985}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -533,13 +533,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.0628931, y: 0.10701434, z: -0.006908637, w: 0.9922741}
+    m_Target: {x: 0.20025593, y: 0.10501326, z: -0.021729384, w: 0.9738944}
     speed: 2
-    m_Value: {x: -0.0628931, y: -0.10701434, z: 0.0069086375, w: -0.99227417}
+    m_Value: {x: 0.20021583, y: 0.10647011, z: -0.022028942, w: 0.9737004}
   m_Size:
-    m_Target: 10.186527
+    m_Target: 7.629804
     speed: 2
-    m_Value: 10.186527
+    m_Value: 7.9893236
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -588,7 +588,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 1015
+    width: 1125
     height: 404
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &19
@@ -730,9 +730,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 3e310000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 8cfbffff
+      m_SelectedIDs: 76e7ffff
+      m_LastClickedID: -6282
+      m_ExpandedIDs: 76e7ffff68efffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -793,20 +793,20 @@ MonoBehaviour:
     m_SceneHandles: 
     m_ShowAllHits: 0
     m_SearchArea: 1
-    m_Folders:
-    - Assets
+    m_Folders: []
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\Dissociation_AndroidBuildTest_v01"
+  m_LastProjectPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC
+    project\\Deepersona\\Deepersona TCC\\Deepersona"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 58300000
     m_LastClickedID: 12376
-    m_ExpandedIDs: 00000000b82d0000082e0000362e0000d4310000
+    m_ExpandedIDs: 00000000f22f0000fa2f0000d4340000b2380000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -834,7 +834,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000b82d0000082e0000362e0000d4310000
+    m_ExpandedIDs: ffffffff00000000f22f0000fa2f0000d4340000b2380000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
