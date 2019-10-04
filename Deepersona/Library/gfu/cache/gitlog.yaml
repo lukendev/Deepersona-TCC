@@ -13,9 +13,1256 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2019-09-27T12:09:23.032-03:00
-  initializedAtString: 2019-09-27T12:09:21.587-03:00
+  lastUpdatedAtString: 2019-10-03T23:01:49.135-03:00
+  initializedAtString: 2019-10-03T21:20:41.693-03:00
   log:
+  - commitID: b6a57335e8dd9a97995b70bf206de8294a2c629d
+    mergeA: 
+    mergeB: 
+    authorName: Lucas Azevedo
+    authorEmail: lucas.azevedo2104@gmail.com
+    commitEmail: lucas.azevedo2104@gmail.com
+    commitName: Lucas Azevedo
+    summary: Walk by Pointn Click DONE!
+    description: Just followed the Brackeys tutorial about walk with pointn click
+      (pathfinding), and adapted to a Mixamo example model, it's working good, but
+      it will take too many time for animation artists to make all of that animations
+      that the script is using.
+    timeString: 2019-09-27T13:24:17.000-03:00
+    commitTimeString: 2019-09-27T13:24:17.000-03:00
+    changes:
+    - path: Deepersona\Assets\Example05 - LowMan.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan.meta"
+      projectPath: Assets\Example05 - LowMan.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Example05 - LowMan\LowMan.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan\\LowMan.meta"
+      projectPath: Assets\Example05 - LowMan\LowMan.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Example05 - LowMan\LowMan\Animation.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan\\LowMan\\Animation.meta"
+      projectPath: Assets\Example05 - LowMan\LowMan\Animation.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Example05 - LowMan\LowMan\Animation\Clips.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan\\LowMan\\Animation\\Clips.meta"
+      projectPath: Assets\Example05 - LowMan\LowMan\Animation\Clips.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_Crouch.fbx
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan\\LowMan\\Animation\\Clips\\Humanoid_Crouch.fbx"
+      projectPath: Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_Crouch.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_Crouch.fbx.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan\\LowMan\\Animation\\Clips\\Humanoid_Crouch.fbx.meta"
+      projectPath: Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_Crouch.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_Dying.fbx
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan\\LowMan\\Animation\\Clips\\Humanoid_Dying.fbx"
+      projectPath: Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_Dying.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_Dying.fbx.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan\\LowMan\\Animation\\Clips\\Humanoid_Dying.fbx.meta"
+      projectPath: Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_Dying.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_Idle.fbx
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan\\LowMan\\Animation\\Clips\\Humanoid_Idle.fbx"
+      projectPath: Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_Idle.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_Idle.fbx.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan\\LowMan\\Animation\\Clips\\Humanoid_Idle.fbx.meta"
+      projectPath: Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_Idle.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_IdleJumpUp.fbx
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan\\LowMan\\Animation\\Clips\\Humanoid_IdleJumpUp.fbx"
+      projectPath: Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_IdleJumpUp.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_IdleJumpUp.fbx.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan\\LowMan\\Animation\\Clips\\Humanoid_IdleJumpUp.fbx.meta"
+      projectPath: Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_IdleJumpUp.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_IdleWin.fbx
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan\\LowMan\\Animation\\Clips\\Humanoid_IdleWin.fbx"
+      projectPath: Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_IdleWin.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_IdleWin.fbx.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan\\LowMan\\Animation\\Clips\\Humanoid_IdleWin.fbx.meta"
+      projectPath: Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_IdleWin.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_JumpAndFall.fbx
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan\\LowMan\\Animation\\Clips\\Humanoid_JumpAndFall.fbx"
+      projectPath: Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_JumpAndFall.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_JumpAndFall.fbx.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan\\LowMan\\Animation\\Clips\\Humanoid_JumpAndFall.fbx.meta"
+      projectPath: Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_JumpAndFall.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_MidAir.fbx
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan\\LowMan\\Animation\\Clips\\Humanoid_MidAir.fbx"
+      projectPath: Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_MidAir.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_MidAir.fbx.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan\\LowMan\\Animation\\Clips\\Humanoid_MidAir.fbx.meta"
+      projectPath: Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_MidAir.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_Run.fbx
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan\\LowMan\\Animation\\Clips\\Humanoid_Run.fbx"
+      projectPath: Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_Run.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_Run.fbx.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan\\LowMan\\Animation\\Clips\\Humanoid_Run.fbx.meta"
+      projectPath: Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_Run.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_RunTurn.fbx
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan\\LowMan\\Animation\\Clips\\Humanoid_RunTurn.fbx"
+      projectPath: Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_RunTurn.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_RunTurn.fbx.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan\\LowMan\\Animation\\Clips\\Humanoid_RunTurn.fbx.meta"
+      projectPath: Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_RunTurn.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_RunTurnSharp.fbx
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan\\LowMan\\Animation\\Clips\\Humanoid_RunTurnSharp.fbx"
+      projectPath: Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_RunTurnSharp.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_RunTurnSharp.fbx.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan\\LowMan\\Animation\\Clips\\Humanoid_RunTurnSharp.fbx.meta"
+      projectPath: Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_RunTurnSharp.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_StandTurn.fbx
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan\\LowMan\\Animation\\Clips\\Humanoid_StandTurn.fbx"
+      projectPath: Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_StandTurn.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_StandTurn.fbx.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan\\LowMan\\Animation\\Clips\\Humanoid_StandTurn.fbx.meta"
+      projectPath: Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_StandTurn.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_Walk.fbx
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan\\LowMan\\Animation\\Clips\\Humanoid_Walk.fbx"
+      projectPath: Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_Walk.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_Walk.fbx.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan\\LowMan\\Animation\\Clips\\Humanoid_Walk.fbx.meta"
+      projectPath: Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_Walk.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_WalkTurn.fbx
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan\\LowMan\\Animation\\Clips\\Humanoid_WalkTurn.fbx"
+      projectPath: Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_WalkTurn.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_WalkTurn.fbx.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan\\LowMan\\Animation\\Clips\\Humanoid_WalkTurn.fbx.meta"
+      projectPath: Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_WalkTurn.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_WalkTurnSharp.fbx
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan\\LowMan\\Animation\\Clips\\Humanoid_WalkTurnSharp.fbx"
+      projectPath: Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_WalkTurnSharp.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_WalkTurnSharp.fbx.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan\\LowMan\\Animation\\Clips\\Humanoid_WalkTurnSharp.fbx.meta"
+      projectPath: Assets\Example05 - LowMan\LowMan\Animation\Clips\Humanoid_WalkTurnSharp.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Example05 - LowMan\LowMan\Animation\Humanoid.controller
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan\\LowMan\\Animation\\Humanoid.controller"
+      projectPath: Assets\Example05 - LowMan\LowMan\Animation\Humanoid.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Example05 - LowMan\LowMan\Animation\Humanoid.controller.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan\\LowMan\\Animation\\Humanoid.controller.meta"
+      projectPath: Assets\Example05 - LowMan\LowMan\Animation\Humanoid.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Example05 - LowMan\LowMan\Models.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan\\LowMan\\Models.meta"
+      projectPath: Assets\Example05 - LowMan\LowMan\Models.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Example05 - LowMan\LowMan\Models\LowBody.fbx
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan\\LowMan\\Models\\LowBody.fbx"
+      projectPath: Assets\Example05 - LowMan\LowMan\Models\LowBody.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Example05 - LowMan\LowMan\Models\LowBody.fbx.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Example05 - LowMan\\LowMan\\Models\\LowBody.fbx.meta"
+      projectPath: Assets\Example05 - LowMan\LowMan\Models\LowBody.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\NavMeshComponents.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\NavMeshComponents.meta"
+      projectPath: Assets\NavMeshComponents.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\NavMeshComponents\Editor.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\NavMeshComponents\\Editor.meta"
+      projectPath: Assets\NavMeshComponents\Editor.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\NavMeshComponents\\Editor\\NavMeshComponentsGUIUtility.cs"
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\NavMeshComponents\\Editor\\NavMeshComponentsGUIUtility.cs.meta"
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\NavMeshComponents\Editor\NavMeshLinkEditor.cs
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\NavMeshComponents\\Editor\\NavMeshLinkEditor.cs"
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshLinkEditor.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\NavMeshComponents\Editor\NavMeshLinkEditor.cs.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\NavMeshComponents\\Editor\\NavMeshLinkEditor.cs.meta"
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshLinkEditor.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\NavMeshComponents\Editor\NavMeshModifierEditor.cs
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\NavMeshComponents\\Editor\\NavMeshModifierEditor.cs"
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshModifierEditor.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\NavMeshComponents\Editor\NavMeshModifierEditor.cs.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\NavMeshComponents\\Editor\\NavMeshModifierEditor.cs.meta"
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshModifierEditor.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\NavMeshComponents\\Editor\\NavMeshModifierVolumeEditor.cs"
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\NavMeshComponents\\Editor\\NavMeshModifierVolumeEditor.cs.meta"
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\NavMeshComponents\\Editor\\NavMeshSurfaceEditor.cs"
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\NavMeshComponents\\Editor\\NavMeshSurfaceEditor.cs.meta"
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\NavMeshComponents\Scripts.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\NavMeshComponents\\Scripts.meta"
+      projectPath: Assets\NavMeshComponents\Scripts.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\NavMeshComponents\Scripts\NavMeshLink.cs
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\NavMeshComponents\\Scripts\\NavMeshLink.cs"
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshLink.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\NavMeshComponents\Scripts\NavMeshLink.cs.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\NavMeshComponents\\Scripts\\NavMeshLink.cs.meta"
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshLink.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\NavMeshComponents\Scripts\NavMeshModifier.cs
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\NavMeshComponents\\Scripts\\NavMeshModifier.cs"
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshModifier.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\NavMeshComponents\Scripts\NavMeshModifier.cs.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\NavMeshComponents\\Scripts\\NavMeshModifier.cs.meta"
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshModifier.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\NavMeshComponents\\Scripts\\NavMeshModifierVolume.cs"
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\NavMeshComponents\\Scripts\\NavMeshModifierVolume.cs.meta"
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\NavMeshComponents\Scripts\NavMeshSurface.cs
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\NavMeshComponents\\Scripts\\NavMeshSurface.cs"
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshSurface.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\NavMeshComponents\Scripts\NavMeshSurface.cs.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\NavMeshComponents\\Scripts\\NavMeshSurface.cs.meta"
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshSurface.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Scenes\FirstTestScene.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Scenes\\FirstTestScene.meta"
+      projectPath: Assets\Scenes\FirstTestScene.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Scenes\FirstTestScene.unity
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Scenes\\FirstTestScene.unity"
+      projectPath: Assets\Scenes\FirstTestScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Scenes\FirstTestScene\NavMesh-NavMesh.asset
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Scenes\\FirstTestScene\\NavMesh-NavMesh.asset"
+      projectPath: Assets\Scenes\FirstTestScene\NavMesh-NavMesh.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Scenes\FirstTestScene\NavMesh-NavMesh.asset.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Scenes\\FirstTestScene\\NavMesh-NavMesh.asset.meta"
+      projectPath: Assets\Scenes\FirstTestScene\NavMesh-NavMesh.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Scripts\Walk_by_PointClick.cs
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Scripts\\Walk_by_PointClick.cs"
+      projectPath: Assets\Scripts\Walk_by_PointClick.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Scripts\Walk_by_PointClick.cs.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Scripts\\Walk_by_PointClick.cs.meta"
+      projectPath: Assets\Scripts\Walk_by_PointClick.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Standard Assets.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Standard Assets.meta"
+      projectPath: Assets\Standard Assets.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Standard Assets\Characters.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Standard Assets\\Characters.meta"
+      projectPath: Assets\Standard Assets\Characters.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Standard Assets\Characters\ThirdPersonCharacter.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Standard Assets\\Characters\\ThirdPersonCharacter.meta"
+      projectPath: Assets\Standard Assets\Characters\ThirdPersonCharacter.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Standard Assets\\Characters\\ThirdPersonCharacter\\Scripts.meta"
+      projectPath: Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonCharacter.cs
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Standard Assets\\Characters\\ThirdPersonCharacter\\Scripts\\ThirdPersonCharacter.cs"
+      projectPath: Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonCharacter.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonCharacter.cs.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Standard Assets\\Characters\\ThirdPersonCharacter\\Scripts\\ThirdPersonCharacter.cs.meta"
+      projectPath: Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonCharacter.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\CurrentLayout.dwlt
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\CurrentLayout.dwlt"
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\InspectorExpandedItems.asset
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\InspectorExpandedItems.asset"
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\LastSceneManagerSetup.txt
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\LastSceneManagerSetup.txt"
+      projectPath: Library\LastSceneManagerSetup.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\ScriptAssemblies\\Assembly-CSharp-Editor-firstpass.dll"
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\ScriptAssemblies\\Assembly-CSharp-Editor.dll"
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\ScriptAssemblies\\Assembly-CSharp-firstpass.dll"
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\ScriptAssemblies\\Assembly-CSharp.dll"
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\StateCache\SceneView\64fbb5-mainStage.json
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\StateCache\\SceneView\\64fbb5-mainStage.json"
+      projectPath: Library\StateCache\SceneView\64fbb5-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\assetDatabase3
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\assetDatabase3"
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\expandedItems
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\expandedItems"
+      projectPath: Library\expandedItems
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\gfu\cache\branches.yaml
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\gfu\\cache\\branches.yaml"
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\gfu\cache\gitlocks.yaml
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\gfu\\cache\\gitlocks.yaml"
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\gfu\cache\gitlog.yaml
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\gfu\\cache\\gitlog.yaml"
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\gfu\\cache\\gitstatusentries.yaml"
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\gfu\\cache\\gittrackingstatus.yaml"
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\gfu\cache\repoinfo.yaml
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\gfu\\cache\\repoinfo.yaml"
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\02\0291f1ec85867d3419f761a0dd853573
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\02\\0291f1ec85867d3419f761a0dd853573"
+      projectPath: Library\metadata\02\0291f1ec85867d3419f761a0dd853573
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\02\0291f1ec85867d3419f761a0dd853573.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\02\\0291f1ec85867d3419f761a0dd853573.info"
+      projectPath: Library\metadata\02\0291f1ec85867d3419f761a0dd853573.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\0d\0d9d26e2162aa4d11ab075b34c029673
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\0d\\0d9d26e2162aa4d11ab075b34c029673"
+      projectPath: Library\metadata\0d\0d9d26e2162aa4d11ab075b34c029673
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\0d\0d9d26e2162aa4d11ab075b34c029673.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\0d\\0d9d26e2162aa4d11ab075b34c029673.info"
+      projectPath: Library\metadata\0d\0d9d26e2162aa4d11ab075b34c029673.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\10\1062212255550964e974f3ffb3cbaae3
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\10\\1062212255550964e974f3ffb3cbaae3"
+      projectPath: Library\metadata\10\1062212255550964e974f3ffb3cbaae3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\10\1062212255550964e974f3ffb3cbaae3.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\10\\1062212255550964e974f3ffb3cbaae3.info"
+      projectPath: Library\metadata\10\1062212255550964e974f3ffb3cbaae3.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\15\15548e45f29cdba49aea85acca959a91
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\15\\15548e45f29cdba49aea85acca959a91"
+      projectPath: Library\metadata\15\15548e45f29cdba49aea85acca959a91
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\15\15548e45f29cdba49aea85acca959a91.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\15\\15548e45f29cdba49aea85acca959a91.info"
+      projectPath: Library\metadata\15\15548e45f29cdba49aea85acca959a91.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\1c\1c52c953c83c2254a9fa72d50250f028
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\1c\\1c52c953c83c2254a9fa72d50250f028"
+      projectPath: Library\metadata\1c\1c52c953c83c2254a9fa72d50250f028
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\1c\1c52c953c83c2254a9fa72d50250f028.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\1c\\1c52c953c83c2254a9fa72d50250f028.info"
+      projectPath: Library\metadata\1c\1c52c953c83c2254a9fa72d50250f028.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\1c\1cb8ed3cbba15f0479fbae54e0a963df
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\1c\\1cb8ed3cbba15f0479fbae54e0a963df"
+      projectPath: Library\metadata\1c\1cb8ed3cbba15f0479fbae54e0a963df
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\1c\1cb8ed3cbba15f0479fbae54e0a963df.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\1c\\1cb8ed3cbba15f0479fbae54e0a963df.info"
+      projectPath: Library\metadata\1c\1cb8ed3cbba15f0479fbae54e0a963df.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\24\240cdbe57d1bbc24690ec3d71dec22a4
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\24\\240cdbe57d1bbc24690ec3d71dec22a4"
+      projectPath: Library\metadata\24\240cdbe57d1bbc24690ec3d71dec22a4
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\24\240cdbe57d1bbc24690ec3d71dec22a4.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\24\\240cdbe57d1bbc24690ec3d71dec22a4.info"
+      projectPath: Library\metadata\24\240cdbe57d1bbc24690ec3d71dec22a4.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\27\2736c3ce72815474a841d00c8558a7a3
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\27\\2736c3ce72815474a841d00c8558a7a3"
+      projectPath: Library\metadata\27\2736c3ce72815474a841d00c8558a7a3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\27\2736c3ce72815474a841d00c8558a7a3.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\27\\2736c3ce72815474a841d00c8558a7a3.info"
+      projectPath: Library\metadata\27\2736c3ce72815474a841d00c8558a7a3.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\27\2777bba7e4e7c6f4681e3ea77eef5438
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\27\\2777bba7e4e7c6f4681e3ea77eef5438"
+      projectPath: Library\metadata\27\2777bba7e4e7c6f4681e3ea77eef5438
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\27\2777bba7e4e7c6f4681e3ea77eef5438.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\27\\2777bba7e4e7c6f4681e3ea77eef5438.info"
+      projectPath: Library\metadata\27\2777bba7e4e7c6f4681e3ea77eef5438.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\3d\3df27b9289d1e8c4fb82e0df4f4673ba
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\3d\\3df27b9289d1e8c4fb82e0df4f4673ba"
+      projectPath: Library\metadata\3d\3df27b9289d1e8c4fb82e0df4f4673ba
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\3d\3df27b9289d1e8c4fb82e0df4f4673ba.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\3d\\3df27b9289d1e8c4fb82e0df4f4673ba.info"
+      projectPath: Library\metadata\3d\3df27b9289d1e8c4fb82e0df4f4673ba.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\3e\3ee9c33ffee000840b0fed14ec400bc9
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\3e\\3ee9c33ffee000840b0fed14ec400bc9"
+      projectPath: Library\metadata\3e\3ee9c33ffee000840b0fed14ec400bc9
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\3e\3ee9c33ffee000840b0fed14ec400bc9.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\3e\\3ee9c33ffee000840b0fed14ec400bc9.info"
+      projectPath: Library\metadata\3e\3ee9c33ffee000840b0fed14ec400bc9.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\44\44375ad942c836640a0e7f603c02cd9f
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\44\\44375ad942c836640a0e7f603c02cd9f"
+      projectPath: Library\metadata\44\44375ad942c836640a0e7f603c02cd9f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\44\44375ad942c836640a0e7f603c02cd9f.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\44\\44375ad942c836640a0e7f603c02cd9f.info"
+      projectPath: Library\metadata\44\44375ad942c836640a0e7f603c02cd9f.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\4b\4b722364804e95e438feb87f955c83b4
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\4b\\4b722364804e95e438feb87f955c83b4"
+      projectPath: Library\metadata\4b\4b722364804e95e438feb87f955c83b4
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\4b\4b722364804e95e438feb87f955c83b4.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\4b\\4b722364804e95e438feb87f955c83b4.info"
+      projectPath: Library\metadata\4b\4b722364804e95e438feb87f955c83b4.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\51\51dd2e4c869794f75a0df7d54b210214
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\51\\51dd2e4c869794f75a0df7d54b210214"
+      projectPath: Library\metadata\51\51dd2e4c869794f75a0df7d54b210214
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\51\51dd2e4c869794f75a0df7d54b210214.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\51\\51dd2e4c869794f75a0df7d54b210214.info"
+      projectPath: Library\metadata\51\51dd2e4c869794f75a0df7d54b210214.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\5a\5a6c083302eb71d45955f42d402133a3
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\5a\\5a6c083302eb71d45955f42d402133a3"
+      projectPath: Library\metadata\5a\5a6c083302eb71d45955f42d402133a3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\5a\5a6c083302eb71d45955f42d402133a3.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\5a\\5a6c083302eb71d45955f42d402133a3.info"
+      projectPath: Library\metadata\5a\5a6c083302eb71d45955f42d402133a3.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\6c\6ce39e93768aa7e4199db30718f1c264
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\6c\\6ce39e93768aa7e4199db30718f1c264"
+      projectPath: Library\metadata\6c\6ce39e93768aa7e4199db30718f1c264
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\6c\6ce39e93768aa7e4199db30718f1c264.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\6c\\6ce39e93768aa7e4199db30718f1c264.info"
+      projectPath: Library\metadata\6c\6ce39e93768aa7e4199db30718f1c264.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\6d\6d07ce676d7afda4dabb3b0f7dd5e654
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\6d\\6d07ce676d7afda4dabb3b0f7dd5e654"
+      projectPath: Library\metadata\6d\6d07ce676d7afda4dabb3b0f7dd5e654
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\6d\6d07ce676d7afda4dabb3b0f7dd5e654.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\6d\\6d07ce676d7afda4dabb3b0f7dd5e654.info"
+      projectPath: Library\metadata\6d\6d07ce676d7afda4dabb3b0f7dd5e654.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\6f\6fb3851da6a6f5948ab6892bee8ba920
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\6f\\6fb3851da6a6f5948ab6892bee8ba920"
+      projectPath: Library\metadata\6f\6fb3851da6a6f5948ab6892bee8ba920
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\6f\6fb3851da6a6f5948ab6892bee8ba920.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\6f\\6fb3851da6a6f5948ab6892bee8ba920.info"
+      projectPath: Library\metadata\6f\6fb3851da6a6f5948ab6892bee8ba920.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\7e\7e15121f5f042ed46aba81406403f2d2
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\7e\\7e15121f5f042ed46aba81406403f2d2"
+      projectPath: Library\metadata\7e\7e15121f5f042ed46aba81406403f2d2
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\7e\7e15121f5f042ed46aba81406403f2d2.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\7e\\7e15121f5f042ed46aba81406403f2d2.info"
+      projectPath: Library\metadata\7e\7e15121f5f042ed46aba81406403f2d2.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\85\850e808bcaf82ff47b2c0ea5f611c248
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\85\\850e808bcaf82ff47b2c0ea5f611c248"
+      projectPath: Library\metadata\85\850e808bcaf82ff47b2c0ea5f611c248
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\85\850e808bcaf82ff47b2c0ea5f611c248.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\85\\850e808bcaf82ff47b2c0ea5f611c248.info"
+      projectPath: Library\metadata\85\850e808bcaf82ff47b2c0ea5f611c248.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\89\8912f13e18e67bc478684ec30d73bc64
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\89\\8912f13e18e67bc478684ec30d73bc64"
+      projectPath: Library\metadata\89\8912f13e18e67bc478684ec30d73bc64
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\89\8912f13e18e67bc478684ec30d73bc64.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\89\\8912f13e18e67bc478684ec30d73bc64.info"
+      projectPath: Library\metadata\89\8912f13e18e67bc478684ec30d73bc64.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\8c\8c32f58513a41ef4dab9cb7704c5fb92
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\8c\\8c32f58513a41ef4dab9cb7704c5fb92"
+      projectPath: Library\metadata\8c\8c32f58513a41ef4dab9cb7704c5fb92
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\8c\8c32f58513a41ef4dab9cb7704c5fb92.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\8c\\8c32f58513a41ef4dab9cb7704c5fb92.info"
+      projectPath: Library\metadata\8c\8c32f58513a41ef4dab9cb7704c5fb92.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\8f\8ffc04019c43c3b44b1dcdbca03f3ec4
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\8f\\8ffc04019c43c3b44b1dcdbca03f3ec4"
+      projectPath: Library\metadata\8f\8ffc04019c43c3b44b1dcdbca03f3ec4
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\8f\8ffc04019c43c3b44b1dcdbca03f3ec4.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\8f\\8ffc04019c43c3b44b1dcdbca03f3ec4.info"
+      projectPath: Library\metadata\8f\8ffc04019c43c3b44b1dcdbca03f3ec4.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\9c\9c91e55a4f5daeb48bfbeff352033f6b
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\9c\\9c91e55a4f5daeb48bfbeff352033f6b"
+      projectPath: Library\metadata\9c\9c91e55a4f5daeb48bfbeff352033f6b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\9c\9c91e55a4f5daeb48bfbeff352033f6b.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\9c\\9c91e55a4f5daeb48bfbeff352033f6b.info"
+      projectPath: Library\metadata\9c\9c91e55a4f5daeb48bfbeff352033f6b.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\9d\9d2ffd2cc6d971842b58ef737d4268c2
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\9d\\9d2ffd2cc6d971842b58ef737d4268c2"
+      projectPath: Library\metadata\9d\9d2ffd2cc6d971842b58ef737d4268c2
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\9d\9d2ffd2cc6d971842b58ef737d4268c2.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\9d\\9d2ffd2cc6d971842b58ef737d4268c2.info"
+      projectPath: Library\metadata\9d\9d2ffd2cc6d971842b58ef737d4268c2.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\a8\a8c4288ef2e341e4bab85c37922622c0
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\a8\\a8c4288ef2e341e4bab85c37922622c0"
+      projectPath: Library\metadata\a8\a8c4288ef2e341e4bab85c37922622c0
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\a8\a8c4288ef2e341e4bab85c37922622c0.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\a8\\a8c4288ef2e341e4bab85c37922622c0.info"
+      projectPath: Library\metadata\a8\a8c4288ef2e341e4bab85c37922622c0.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\b1\b109366e8e12f3f448cc2f2576df102a
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\b1\\b109366e8e12f3f448cc2f2576df102a"
+      projectPath: Library\metadata\b1\b109366e8e12f3f448cc2f2576df102a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\b1\b109366e8e12f3f448cc2f2576df102a.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\b1\\b109366e8e12f3f448cc2f2576df102a.info"
+      projectPath: Library\metadata\b1\b109366e8e12f3f448cc2f2576df102a.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\b1\b1a5e04ae51004842aba06704a6c2903
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\b1\\b1a5e04ae51004842aba06704a6c2903"
+      projectPath: Library\metadata\b1\b1a5e04ae51004842aba06704a6c2903
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\b1\b1a5e04ae51004842aba06704a6c2903.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\b1\\b1a5e04ae51004842aba06704a6c2903.info"
+      projectPath: Library\metadata\b1\b1a5e04ae51004842aba06704a6c2903.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\bb\bb141fc9a700c9c4ca7e6dadb8acf24b
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\bb\\bb141fc9a700c9c4ca7e6dadb8acf24b"
+      projectPath: Library\metadata\bb\bb141fc9a700c9c4ca7e6dadb8acf24b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\bb\bb141fc9a700c9c4ca7e6dadb8acf24b.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\bb\\bb141fc9a700c9c4ca7e6dadb8acf24b.info"
+      projectPath: Library\metadata\bb\bb141fc9a700c9c4ca7e6dadb8acf24b.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\c3\c3b1b4cea893c5f47911e3822970a7d4
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\c3\\c3b1b4cea893c5f47911e3822970a7d4"
+      projectPath: Library\metadata\c3\c3b1b4cea893c5f47911e3822970a7d4
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\c3\c3b1b4cea893c5f47911e3822970a7d4.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\c3\\c3b1b4cea893c5f47911e3822970a7d4.info"
+      projectPath: Library\metadata\c3\c3b1b4cea893c5f47911e3822970a7d4.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\c6\c6195a43a0187a34e9c6be23520d3766
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\c6\\c6195a43a0187a34e9c6be23520d3766"
+      projectPath: Library\metadata\c6\c6195a43a0187a34e9c6be23520d3766
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\c6\c6195a43a0187a34e9c6be23520d3766.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\c6\\c6195a43a0187a34e9c6be23520d3766.info"
+      projectPath: Library\metadata\c6\c6195a43a0187a34e9c6be23520d3766.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\ce\ce138f3bd105d8049b1020fee879265f
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\ce\\ce138f3bd105d8049b1020fee879265f"
+      projectPath: Library\metadata\ce\ce138f3bd105d8049b1020fee879265f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\ce\ce138f3bd105d8049b1020fee879265f.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\ce\\ce138f3bd105d8049b1020fee879265f.info"
+      projectPath: Library\metadata\ce\ce138f3bd105d8049b1020fee879265f.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\ce\ce7a80d520cacc042b5fe14f373d8173
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\ce\\ce7a80d520cacc042b5fe14f373d8173"
+      projectPath: Library\metadata\ce\ce7a80d520cacc042b5fe14f373d8173
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\ce\ce7a80d520cacc042b5fe14f373d8173.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\ce\\ce7a80d520cacc042b5fe14f373d8173.info"
+      projectPath: Library\metadata\ce\ce7a80d520cacc042b5fe14f373d8173.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\d8\d89ea37480b6d75458aa38843e9688dc
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\d8\\d89ea37480b6d75458aa38843e9688dc"
+      projectPath: Library\metadata\d8\d89ea37480b6d75458aa38843e9688dc
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\d8\d89ea37480b6d75458aa38843e9688dc.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\d8\\d89ea37480b6d75458aa38843e9688dc.info"
+      projectPath: Library\metadata\d8\d89ea37480b6d75458aa38843e9688dc.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\df\dffa50cfe77e0434bbfa71245b3dd529
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\df\\dffa50cfe77e0434bbfa71245b3dd529"
+      projectPath: Library\metadata\df\dffa50cfe77e0434bbfa71245b3dd529
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\df\dffa50cfe77e0434bbfa71245b3dd529.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\df\\dffa50cfe77e0434bbfa71245b3dd529.info"
+      projectPath: Library\metadata\df\dffa50cfe77e0434bbfa71245b3dd529.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\e2\e2cf68ff4b1ffda45a77f7307dd789b9
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\e2\\e2cf68ff4b1ffda45a77f7307dd789b9"
+      projectPath: Library\metadata\e2\e2cf68ff4b1ffda45a77f7307dd789b9
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\e2\e2cf68ff4b1ffda45a77f7307dd789b9.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\e2\\e2cf68ff4b1ffda45a77f7307dd789b9.info"
+      projectPath: Library\metadata\e2\e2cf68ff4b1ffda45a77f7307dd789b9.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\e3\e30c19a9cb564f648a7ff762a3e673bd
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\e3\\e30c19a9cb564f648a7ff762a3e673bd"
+      projectPath: Library\metadata\e3\e30c19a9cb564f648a7ff762a3e673bd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\e3\e30c19a9cb564f648a7ff762a3e673bd.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\e3\\e30c19a9cb564f648a7ff762a3e673bd.info"
+      projectPath: Library\metadata\e3\e30c19a9cb564f648a7ff762a3e673bd.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\f0\f03e10c73f30b4ab4aa8ea8f1cc16d36
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\f0\\f03e10c73f30b4ab4aa8ea8f1cc16d36"
+      projectPath: Library\metadata\f0\f03e10c73f30b4ab4aa8ea8f1cc16d36
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\f0\f03e10c73f30b4ab4aa8ea8f1cc16d36.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\f0\\f03e10c73f30b4ab4aa8ea8f1cc16d36.info"
+      projectPath: Library\metadata\f0\f03e10c73f30b4ab4aa8ea8f1cc16d36.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\f2\f2bed5dc5afacff44a00de8daae9703b
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\f2\\f2bed5dc5afacff44a00de8daae9703b"
+      projectPath: Library\metadata\f2\f2bed5dc5afacff44a00de8daae9703b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\f2\f2bed5dc5afacff44a00de8daae9703b.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\f2\\f2bed5dc5afacff44a00de8daae9703b.info"
+      projectPath: Library\metadata\f2\f2bed5dc5afacff44a00de8daae9703b.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\f9\f918162f1d0e7fb47a4b28621b993517
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\f9\\f918162f1d0e7fb47a4b28621b993517"
+      projectPath: Library\metadata\f9\f918162f1d0e7fb47a4b28621b993517
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\f9\f918162f1d0e7fb47a4b28621b993517.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\f9\\f918162f1d0e7fb47a4b28621b993517.info"
+      projectPath: Library\metadata\f9\f918162f1d0e7fb47a4b28621b993517.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\fd\fd3f0c8df3e6f2f41a45b75127c00b31
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\fd\\fd3f0c8df3e6f2f41a45b75127c00b31"
+      projectPath: Library\metadata\fd\fd3f0c8df3e6f2f41a45b75127c00b31
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\fd\fd3f0c8df3e6f2f41a45b75127c00b31.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\fd\\fd3f0c8df3e6f2f41a45b75127c00b31.info"
+      projectPath: Library\metadata\fd\fd3f0c8df3e6f2f41a45b75127c00b31.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\shadercompiler-UnityShaderCompiler.exe0.log"
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\ProjectSettings\TagManager.asset
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\ProjectSettings\\TagManager.asset"
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\obj\\Debug\\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache"
+      projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\obj\\Debug\\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache"
+      projectPath: obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\obj\\Debug\\Assembly-CSharp-Editor.csprojAssemblyReference.cache"
+      projectPath: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\obj\Debug\Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\obj\\Debug\\Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache"
+      projectPath: obj\Debug\Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\obj\\Debug\\Assembly-CSharp.csproj.CoreCompileInputs.cache"
+      projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\obj\\Debug\\Assembly-CSharp.csprojAssemblyReference.cache"
+      projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: cdc3d6d36552448484f2eaab9f895851caf71dbb
     mergeA: 
     mergeB: 
