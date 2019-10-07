@@ -6,32 +6,41 @@ using UnityStandardAssets.Characters.ThirdPerson;
 
 public class Walk_by_PointClick : MonoBehaviour
 {
-    
+    /* Variaveis do mecanismo de andar com Pointn Click */
     public Camera cam;
 
     public NavMeshAgent agent;
 
     public ThirdPersonCharacter character;
+    /* ------------------------------------------------ */
+
+    public static bool canMove;
+    public static bool stop;
 
     void Start()
     {
         agent.updateRotation = false;
+        canMove = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        if(canMove)
         {
-            Ray ray = cam.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-
-            if (Physics.Raycast(ray, out hit))
+            if(Input.GetMouseButtonDown(0))
             {
-                // MOVE OUR AGENT
-                agent.SetDestination(hit.point);
+                Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+                RaycastHit hit;
+
+                if (Physics.Raycast(ray, out hit))
+                {
+                    // MOVE OUR AGENT
+                    agent.SetDestination(hit.point);
+                }
             }
         }
+        
 
         if(agent.remainingDistance > agent.stoppingDistance)
         {
@@ -41,5 +50,18 @@ public class Walk_by_PointClick : MonoBehaviour
             character.Move(Vector3.zero, false, false);
         }
 
+        if(stop)
+        {
+            stop = false;
+            Stop();
+        }
+
+    }
+
+    void Stop()
+    {
+        agent.isStopped = true;
+        agent.ResetPath();
     }
 }
+

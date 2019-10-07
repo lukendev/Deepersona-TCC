@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-10-03T23:01:44.637-03:00
-  initializedAtString: 2019-10-03T20:56:16.265-03:00
+  lastUpdatedAtString: 2019-10-07T20:26:47.077-03:00
+  initializedAtString: 2019-10-07T18:26:09.872-03:00
   currentGitRemote:
     name: origin
     url: git@github.com:lukenzera/Deepersona-TCC.git

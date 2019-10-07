@@ -13,9 +13,134 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2019-10-03T23:01:49.135-03:00
-  initializedAtString: 2019-10-03T21:20:41.693-03:00
+  lastUpdatedAtString: 2019-10-07T20:26:47.921-03:00
+  initializedAtString: 2019-10-07T19:15:52.096-03:00
   log:
+  - commitID: 56d6658d93c8756511687152d39eff5514549460
+    mergeA: 
+    mergeB: 
+    authorName: Lucas Azevedo
+    authorEmail: lucas.azevedo2104@gmail.com
+    commitEmail: lucas.azevedo2104@gmail.com
+    commitName: Lucas Azevedo
+    summary: Dolly Track Camera 01 DONE
+    description: "A camera est\xE1 feita e agora \xE9 s\xF3 ajustar os posicionamentos
+      de acordo com o lvl design e arte :)"
+    timeString: 2019-10-03T23:04:08.000-03:00
+    commitTimeString: 2019-10-03T23:04:08.000-03:00
+    changes:
+    - path: Deepersona\Assets\AnimatorControllers\Enemy01.controller
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\AnimatorControllers\\Enemy01.controller"
+      projectPath: Assets\AnimatorControllers\Enemy01.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\AnimatorControllers\Enemy01.controller.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\AnimatorControllers\\Enemy01.controller.meta"
+      projectPath: Assets\AnimatorControllers\Enemy01.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Scenes\FirstTestScene.unity
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Scenes\\FirstTestScene.unity"
+      projectPath: Assets\Scenes\FirstTestScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\CurrentLayout.dwlt
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\CurrentLayout.dwlt"
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\InspectorExpandedItems.asset
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\InspectorExpandedItems.asset"
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\StateCache\SceneView\64fbb5-mainStage.json
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\StateCache\\SceneView\\64fbb5-mainStage.json"
+      projectPath: Library\StateCache\SceneView\64fbb5-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\assetDatabase3
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\assetDatabase3"
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\expandedItems
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\expandedItems"
+      projectPath: Library\expandedItems
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\gfu\cache\branches.yaml
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\gfu\\cache\\branches.yaml"
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\gfu\cache\gitlocks.yaml
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\gfu\\cache\\gitlocks.yaml"
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\gfu\cache\gitlog.yaml
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\gfu\\cache\\gitlog.yaml"
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\gfu\\cache\\gitstatusentries.yaml"
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\gfu\\cache\\gittrackingstatus.yaml"
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\gfu\cache\repoinfo.yaml
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\gfu\\cache\\repoinfo.yaml"
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\73\73ed1af3ec24cb34fa3595b8626ea9d6
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\73\\73ed1af3ec24cb34fa3595b8626ea9d6"
+      projectPath: Library\metadata\73\73ed1af3ec24cb34fa3595b8626ea9d6
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\73\73ed1af3ec24cb34fa3595b8626ea9d6.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\73\\73ed1af3ec24cb34fa3595b8626ea9d6.info"
+      projectPath: Library\metadata\73\73ed1af3ec24cb34fa3595b8626ea9d6.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
   - commitID: b6a57335e8dd9a97995b70bf206de8294a2c629d
     mergeA: 
     mergeB: 
