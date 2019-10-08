@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Start_Battle : MonoBehaviour
 {
@@ -22,6 +23,14 @@ public class Start_Battle : MonoBehaviour
     public GameObject battleCam;
     bool battleStarted;
     /* ----------------------------------- */
+
+    public GameObject moveRange;
+    public GameObject player;
+    Vector3 moveRangePos;
+
+    public GameObject navOne;
+
+    public NavMeshSurface navMoveRange;
 
 
 
@@ -46,7 +55,12 @@ public class Start_Battle : MonoBehaviour
                 Walk_by_PointClick.stop = true;
                 battleFeedback.SetActive(true);
                 battleStarted = true;
-                Walk_by_PointClick.canMove = false;
+                //Walk_by_PointClick.canMove = false;
+
+                moveRangePos = player.transform.position;
+                moveRange.transform.position = moveRangePos;
+
+                navOne.SetActive(false);
 
                 // Camera
                 levelCam.SetActive(false);
