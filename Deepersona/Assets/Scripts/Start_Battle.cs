@@ -32,6 +32,9 @@ public class Start_Battle : MonoBehaviour
 
     public NavMeshSurface navMoveRange;
 
+    [SerializeField]
+    float dist;
+
 
 
     // Start is called before the first frame update
@@ -66,8 +69,11 @@ public class Start_Battle : MonoBehaviour
                 levelCam.SetActive(false);
                 battleCam.SetActive(true);
             }
-        } else 
-                battleFeedback.SetActive(false);
+            else
+            {
+                dist = hit.distance;
+            }
+        }
 
     }
 
