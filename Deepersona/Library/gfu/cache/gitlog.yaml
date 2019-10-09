@@ -13,9 +13,362 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2019-10-07T21:16:55.516-03:00
-  initializedAtString: 2019-10-07T21:16:55.308-03:00
+  lastUpdatedAtString: 2019-10-09T12:01:10.729-03:00
+  initializedAtString: 2019-10-09T11:14:39.797-03:00
   log:
+  - commitID: f362f717c22f705896a22088bf43e19e2afe753f
+    mergeA: 
+    mergeB: 
+    authorName: Lucas Azevedo
+    authorEmail: lucas.azevedo2104@gmail.com
+    commitEmail: lucas.azevedo2104@gmail.com
+    commitName: Lucas Azevedo
+    summary: Battle First Stage (Atack and Distance)
+    description: Atack Buttons set and Distance Indicator DONE.
+    timeString: 2019-10-07T22:33:46.000-03:00
+    commitTimeString: 2019-10-07T22:33:46.000-03:00
+    changes:
+    - path: Deepersona\Assets\Scenes\FirstTestScene.unity
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Scenes\\FirstTestScene.unity"
+      projectPath: Assets\Scenes\FirstTestScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Scripts\Battle_AnswerStarter.cs
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Scripts\\Battle_AnswerStarter.cs"
+      projectPath: Assets\Scripts\Battle_AnswerStarter.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Scripts\Battle_AnswerStarter.cs.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Scripts\\Battle_AnswerStarter.cs.meta"
+      projectPath: Assets\Scripts\Battle_AnswerStarter.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Scripts\Start_Battle.cs
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Scripts\\Start_Battle.cs"
+      projectPath: Assets\Scripts\Start_Battle.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\CurrentLayout.dwlt
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\CurrentLayout.dwlt"
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\InspectorExpandedItems.asset
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\InspectorExpandedItems.asset"
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\ScriptAssemblies\\Assembly-CSharp-Editor.dll"
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\ScriptAssemblies\\Assembly-CSharp.dll"
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\StateCache\SceneView\64fbb5-mainStage.json
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\StateCache\\SceneView\\64fbb5-mainStage.json"
+      projectPath: Library\StateCache\SceneView\64fbb5-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\assetDatabase3
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\assetDatabase3"
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\expandedItems
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\expandedItems"
+      projectPath: Library\expandedItems
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\gfu\cache\branches.yaml
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\gfu\\cache\\branches.yaml"
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\gfu\cache\gitlocks.yaml
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\gfu\\cache\\gitlocks.yaml"
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\gfu\\cache\\gitstatusentries.yaml"
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\gfu\\cache\\gittrackingstatus.yaml"
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\gfu\cache\repoinfo.yaml
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\gfu\\cache\\repoinfo.yaml"
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\66\6652f057f286c6345936665ed8d9c195
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\66\\6652f057f286c6345936665ed8d9c195"
+      projectPath: Library\metadata\66\6652f057f286c6345936665ed8d9c195
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\66\6652f057f286c6345936665ed8d9c195.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\66\\6652f057f286c6345936665ed8d9c195.info"
+      projectPath: Library\metadata\66\6652f057f286c6345936665ed8d9c195.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\fd\fdb7473e94bd8c84e9b9c2b6b6f1a868
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\fd\\fdb7473e94bd8c84e9b9c2b6b6f1a868"
+      projectPath: Library\metadata\fd\fdb7473e94bd8c84e9b9c2b6b6f1a868
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\obj\\Debug\\Assembly-CSharp.csproj.CoreCompileInputs.cache"
+      projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\obj\\Debug\\Assembly-CSharp.csprojAssemblyReference.cache"
+      projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: f569a733047bfe9b5d9bff92410a2e4e7df4bf95
+    mergeA: 
+    mergeB: 
+    authorName: Lucas Azevedo
+    authorEmail: lucas.azevedo2104@gmail.com
+    commitEmail: lucas.azevedo2104@gmail.com
+    commitName: Lucas Azevedo
+    summary: Battle First Stage (MoveRangeTurn)
+    description: MoveRange was born.
+    timeString: 2019-10-07T21:34:18.000-03:00
+    commitTimeString: 2019-10-07T21:34:18.000-03:00
+    changes:
+    - path: Deepersona\Assets\Prefabs.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Prefabs.meta"
+      projectPath: Assets\Prefabs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Prefabs\Battle_MoveRange.prefab
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Prefabs\\Battle_MoveRange.prefab"
+      projectPath: Assets\Prefabs\Battle_MoveRange.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Prefabs\Battle_MoveRange.prefab.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Prefabs\\Battle_MoveRange.prefab.meta"
+      projectPath: Assets\Prefabs\Battle_MoveRange.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Scenes\FirstTestScene.unity
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Scenes\\FirstTestScene.unity"
+      projectPath: Assets\Scenes\FirstTestScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Scenes\FirstTestScene\NavMesh-Battle_MoveRange.asset
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Scenes\\FirstTestScene\\NavMesh-Battle_MoveRange.asset"
+      projectPath: Assets\Scenes\FirstTestScene\NavMesh-Battle_MoveRange.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Scenes\FirstTestScene\NavMesh-Battle_MoveRange.asset.meta
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Scenes\\FirstTestScene\\NavMesh-Battle_MoveRange.asset.meta"
+      projectPath: Assets\Scenes\FirstTestScene\NavMesh-Battle_MoveRange.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Assets\Scripts\Start_Battle.cs
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Assets\\Scripts\\Start_Battle.cs"
+      projectPath: Assets\Scripts\Start_Battle.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\CurrentLayout.dwlt
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\CurrentLayout.dwlt"
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\ScriptAssemblies\\Assembly-CSharp-Editor.dll"
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\ScriptAssemblies\\Assembly-CSharp.dll"
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\StateCache\SceneView\64fbb5-mainStage.json
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\StateCache\\SceneView\\64fbb5-mainStage.json"
+      projectPath: Library\StateCache\SceneView\64fbb5-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\assetDatabase3
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\assetDatabase3"
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\expandedItems
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\expandedItems"
+      projectPath: Library\expandedItems
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\gfu\cache\branches.yaml
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\gfu\\cache\\branches.yaml"
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\gfu\cache\gitlocks.yaml
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\gfu\\cache\\gitlocks.yaml"
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\gfu\cache\gitlog.yaml
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\gfu\\cache\\gitlog.yaml"
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\gfu\\cache\\gitstatusentries.yaml"
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\gfu\\cache\\gittrackingstatus.yaml"
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\gfu\cache\repoinfo.yaml
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\gfu\\cache\\repoinfo.yaml"
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\20\2061af864a47faa4fb825a761c2ec9fb
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\20\\2061af864a47faa4fb825a761c2ec9fb"
+      projectPath: Library\metadata\20\2061af864a47faa4fb825a761c2ec9fb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\20\2061af864a47faa4fb825a761c2ec9fb.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\20\\2061af864a47faa4fb825a761c2ec9fb.info"
+      projectPath: Library\metadata\20\2061af864a47faa4fb825a761c2ec9fb.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\ae\aebea86611287f84f974e0e980ea8419
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\ae\\aebea86611287f84f974e0e980ea8419"
+      projectPath: Library\metadata\ae\aebea86611287f84f974e0e980ea8419
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\ae\aebea86611287f84f974e0e980ea8419.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\ae\\aebea86611287f84f974e0e980ea8419.info"
+      projectPath: Library\metadata\ae\aebea86611287f84f974e0e980ea8419.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\cd\cd4319cff73e91d4188b46993351d18e
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\cd\\cd4319cff73e91d4188b46993351d18e"
+      projectPath: Library\metadata\cd\cd4319cff73e91d4188b46993351d18e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\cd\cd4319cff73e91d4188b46993351d18e.info
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\cd\\cd4319cff73e91d4188b46993351d18e.info"
+      projectPath: Library\metadata\cd\cd4319cff73e91d4188b46993351d18e.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Deepersona\Library\metadata\fd\fdb7473e94bd8c84e9b9c2b6b6f1a868
+      fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+        TCC\\Deepersona\\Library\\metadata\\fd\\fdb7473e94bd8c84e9b9c2b6b6f1a868"
+      projectPath: Library\metadata\fd\fdb7473e94bd8c84e9b9c2b6b6f1a868
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 7214097f3fe79325762c94fb9082c958c6f49933
     mergeA: 
     mergeB: 

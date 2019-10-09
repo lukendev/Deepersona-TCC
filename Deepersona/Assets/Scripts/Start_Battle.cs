@@ -35,14 +35,6 @@ public class Start_Battle : MonoBehaviour
     [SerializeField]
     float dist;
 
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -55,6 +47,7 @@ public class Start_Battle : MonoBehaviour
         {
             if(hit.collider.CompareTag("Player") && !battleStarted)
             {
+                Enemy01.startBattle = true;
                 Walk_by_PointClick.stop = true;
                 battleFeedback.SetActive(true);
                 battleStarted = true;
