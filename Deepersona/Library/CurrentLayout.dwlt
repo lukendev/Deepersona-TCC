@@ -45,7 +45,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 544}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -115,7 +115,11 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 494}
   m_MaxSize: {x: 18008, y: 14044}
   vertical: 0
+<<<<<<< HEAD
   controlID: 86
+=======
+  controlID: 54
+>>>>>>> master
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +144,11 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 444}
   m_MaxSize: {x: 4002, y: 8044}
   vertical: 1
+<<<<<<< HEAD
   controlID: 87
+=======
+  controlID: 134
+>>>>>>> master
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -221,7 +229,11 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 494}
   m_MaxSize: {x: 10004, y: 14044}
   vertical: 1
+<<<<<<< HEAD
   controlID: 18
+=======
+  controlID: 55
+>>>>>>> master
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -358,7 +370,7 @@ MonoBehaviour:
   m_PosLeft: {x: 0, y: 0}
   m_PosRight: {x: 0, y: 229}
   m_Scope: 1
-  m_SplitterFlex: 0.20052424
+  m_SplitterFlex: 0.2
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -415,7 +427,7 @@ MonoBehaviour:
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 09000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 08000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_TargetDisplay: 0
   m_ZoomArea:
     m_HRangeLocked: 0
@@ -535,11 +547,19 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.025718197, y: 0.6962032, z: -0.02563924, w: 0.7172346}
     speed: 2
+<<<<<<< HEAD
     m_Value: {x: 0.025750924, y: 0.6949726, z: -0.025594965, w: 0.718119}
+=======
+    m_Value: {x: -0.064718835, y: 0.9167276, z: -0.35796613, w: -0.16517319}
+>>>>>>> master
   m_Size:
     m_Target: 14.485481
     speed: 2
+<<<<<<< HEAD
     m_Value: 13.861705
+=======
+    m_Value: 27.483265
+>>>>>>> master
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -782,7 +802,11 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< HEAD
       m_ExpandedIDs: 8cfbffff0a370000
+=======
+      m_ExpandedIDs: f0f6ffff
+>>>>>>> master
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -843,21 +867,23 @@ MonoBehaviour:
     m_SceneHandles: 
     m_ShowAllHits: 0
     m_SearchArea: 1
-    m_Folders:
-    - Assets/Characters/Aj
+    m_Folders: []
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC
-    project\\Deepersona\\Deepersona TCC\\Deepersona"
+  m_LastProjectPath: C:\Users\Felipe\Desktop\TCC\Game\Deepersona-TCC\Deepersona
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 58300000
     m_LastClickedID: 12376
+<<<<<<< HEAD
     m_ExpandedIDs: 000000009e2e0000f62e00006a2f000000300000ee3000001a31000068330000dc330000a634000044350000a2350000b2350000be350000
+=======
+    m_ExpandedIDs: 0000000058350000b035000024360000ba360000a4370000ce3700000c3a0000803a0000463b0000e43b0000403c0000503c00005c3c0000
+>>>>>>> master
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -885,7 +911,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 125}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: ffffffff000000009e2e0000f62e00006a2f000000300000ee3000001a31000068330000dc330000a634000044350000a2350000b2350000be350000
+=======
+    m_ExpandedIDs: ffffffff0000000058350000b035000024360000ba360000a4370000ce3700000c3a0000803a0000463b0000e43b0000403c0000503c00005c3c0000
+>>>>>>> master
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
