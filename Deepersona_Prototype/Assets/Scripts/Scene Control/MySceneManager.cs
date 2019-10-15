@@ -14,8 +14,14 @@ public class MySceneManager : MonoBehaviour {
 			Invoke ("MyLoadScene", timeToWait);
 		}
 	}
-	//sobrecarga sem parametro p/ o invoke
-	public void MyLoadScene(){
+    public void MyReLoad()
+    {
+        unPause();
+        MainData.NextScene = SceneManager.GetActiveScene().name; ;
+        SceneManager.LoadScene("Loading");
+    }
+    //sobrecarga sem parametro p/ o invoke
+    public void MyLoadScene(){
 		MyLoadScene (automaticScene);
 	}
 	//chama a cena de loading armazenando 
