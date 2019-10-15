@@ -17,9 +17,9 @@ TagManager:
   - Wolrd
   - Player
   - MoveRange
-  - 
-  - 
-  - 
+  - Wall
+  - Walkable
+  - Not Walkable
   - 
   - 
   - 
