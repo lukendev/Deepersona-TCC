@@ -21,6 +21,7 @@ public class Battle_AnswerStarter : MonoBehaviour
 
     public void StartAnswers()
     {
+        Walk_by_PointClick.stop = true;
         Walk_by_PointClick.canMove = false;
         player.transform.LookAt(enemy.transform);
         enemy.transform.LookAt(player.transform);

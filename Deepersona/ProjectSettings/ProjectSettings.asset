@@ -635,7 +635,11 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
+<<<<<<< HEAD
   cloudProjectId: cd8fc600-7da9-4eea-b53e-ca7f39fbaddf
+=======
+  cloudProjectId: ed6f0584-0828-4995-8df0-5edd0b50edc7
+>>>>>>> master
   framebufferDepthMemorylessMode: 0
   projectName: Deepersona_Prototype
   organizationId: try-again-a83f356f-d76b-4ce4-92f7-886177eb9a17

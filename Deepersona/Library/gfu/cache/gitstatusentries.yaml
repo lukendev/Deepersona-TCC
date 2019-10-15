@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
+<<<<<<< HEAD
   lastUpdatedAtString: 2019-10-14T21:10:09.939-03:00
   initializedAtString: 2019-10-14T20:53:55.237-03:00
   entries:
@@ -150,12 +151,33 @@ MonoBehaviour:
     indexStatus: 1
     workTreeStatus: 1
   - path: Deepersona\Assets\3D Meshs\3D Assets\Characters\Aj\Textures\Boy01_FacialAnimMap.png.meta
+=======
+  lastUpdatedAtString: 2019-10-14T20:24:11.317-03:00
+  initializedAtString: 2019-10-14T20:23:26.240-03:00
+  entries:
+  - path: Deepersona\Library\assetDatabase3
+    fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+      TCC\\Deepersona\\Library\\assetDatabase3"
+    projectPath: Library\assetDatabase3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Deepersona\Library\CurrentLayout.dwlt
+    fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+      TCC\\Deepersona\\Library\\CurrentLayout.dwlt"
+    projectPath: Library\CurrentLayout.dwlt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Deepersona\Library\EditorInstance.json
+>>>>>>> master
     fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
       TCC\\Deepersona\\Assets\\3D Meshs\\3D Assets\\Characters\\Aj\\Textures\\Boy01_FacialAnimMap.png.meta"
     projectPath: Assets\3D Meshs\3D Assets\Characters\Aj\Textures\Boy01_FacialAnimMap.png.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+<<<<<<< HEAD
   - path: Deepersona\Assets\3D Meshs\3D Assets\Characters\Aj\Textures\Boy01_normal.jpg
     fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
       TCC\\Deepersona\\Assets\\3D Meshs\\3D Assets\\Characters\\Aj\\Textures\\Boy01_normal.jpg"
@@ -20457,10 +20479,98 @@ MonoBehaviour:
     indexStatus: 0
     workTreeStatus: 3
   - path: Deepersona\Library\metadata\f8\f8ecb941d6e68c442985338cec017d41
+=======
+  - path: Deepersona\Library\gfu\cache\gitlocks.yaml
+    fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+      TCC\\Deepersona\\Library\\gfu\\cache\\gitlocks.yaml"
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Deepersona\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+      TCC\\Deepersona\\Library\\gfu\\cache\\gitstatusentries.yaml"
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Deepersona\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+      TCC\\Deepersona\\Library\\gfu\\cache\\gittrackingstatus.yaml"
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Deepersona\Library\gfu\cache\repoinfo.yaml
+    fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+      TCC\\Deepersona\\Library\\gfu\\cache\\repoinfo.yaml"
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Deepersona\Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+      TCC\\Deepersona\\Library\\ScriptAssemblies\\Assembly-CSharp.dll"
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Deepersona\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+    fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+      TCC\\Deepersona\\Library\\ScriptAssemblies\\Assembly-CSharp-Editor.dll"
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Deepersona\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+      TCC\\Deepersona\\Library\\shadercompiler-UnityShaderCompiler.exe0.log"
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Deepersona\Library\StateCache\Hierarchy\5373b0-mainStage.json
+    fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+      TCC\\Deepersona\\Library\\StateCache\\Hierarchy\\5373b0-mainStage.json"
+    projectPath: Library\StateCache\Hierarchy\5373b0-mainStage.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Deepersona\Library\StateCache\SceneView\509282-mainStage.json
+    fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+      TCC\\Deepersona\\Library\\StateCache\\SceneView\\509282-mainStage.json"
+    projectPath: Library\StateCache\SceneView\509282-mainStage.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Deepersona\ProjectSettings\UnityConnectSettings.asset
+    fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+      TCC\\Deepersona\\ProjectSettings\\UnityConnectSettings.asset"
+    projectPath: ProjectSettings\UnityConnectSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Deepersona\Temp\__Backupscenes\0.backup
+    fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+      TCC\\Deepersona\\Temp\\__Backupscenes\\0.backup"
+    projectPath: Temp\__Backupscenes\0.backup
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Deepersona\Temp\ProcessJobs\ab30c7bcae888f8a20ac9ec5bfbfa3a6.bakert
+    fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+      TCC\\Deepersona\\Temp\\ProcessJobs\\ab30c7bcae888f8a20ac9ec5bfbfa3a6.bakert"
+    projectPath: Temp\ProcessJobs\ab30c7bcae888f8a20ac9ec5bfbfa3a6.bakert
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Deepersona\Temp\UnityLockfile
+>>>>>>> master
     fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
       TCC\\Deepersona\\Library\\metadata\\f8\\f8ecb941d6e68c442985338cec017d41"
     projectPath: Library\metadata\f8\f8ecb941d6e68c442985338cec017d41
     originalPath: 
+<<<<<<< HEAD
     indexStatus: 0
     workTreeStatus: 5
   - path: Deepersona\Library\metadata\f8\f8ecb941d6e68c442985338cec017d41.info
@@ -20838,6 +20948,21 @@ MonoBehaviour:
     fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
       TCC\\Deepersona\\Temp\\UnityTempFile-d1355cbf9d146544489322699910ea7d"
     projectPath: Temp\UnityTempFile-d1355cbf9d146544489322699910ea7d
+=======
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Deepersona\Temp\UnityTempFile-6b4fc1a1d0b2000458586cc7e4269a44
+    fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+      TCC\\Deepersona\\Temp\\UnityTempFile-6b4fc1a1d0b2000458586cc7e4269a44"
+    projectPath: Temp\UnityTempFile-6b4fc1a1d0b2000458586cc7e4269a44
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Deepersona\Temp\UnityTempFile-eeae91a50380ff64387cf8878e1441cf
+    fullPath: "D:\\Pasta Pessoal\\Documentos\\7\xBA Semestre - TCC Begins\\TCC project\\Deepersona\\Deepersona
+      TCC\\Deepersona\\Temp\\UnityTempFile-eeae91a50380ff64387cf8878e1441cf"
+    projectPath: Temp\UnityTempFile-eeae91a50380ff64387cf8878e1441cf
+>>>>>>> master
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
