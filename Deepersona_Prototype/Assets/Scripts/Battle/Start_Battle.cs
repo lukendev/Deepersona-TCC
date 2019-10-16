@@ -26,11 +26,15 @@ public class Start_Battle : MonoBehaviour
 
     public GameObject moveRange;
     public GameObject player;
-    Vector3 moveRangePos;
+    public GameObject enemy;
+    public static Vector3 moveRangePos;
 
     public GameObject navOne;
 
     public NavMeshSurface navMoveRange;
+    public float visionRange;
+
+    public GameObject moveArea;
 
     [SerializeField]
     float dist;
@@ -43,7 +47,7 @@ public class Start_Battle : MonoBehaviour
         moveDir = transform.forward;
         RaycastHit hit;
 
-        if(Physics.Raycast(transform.position, transform.forward, out hit, 10, OnlyPlayer))
+        if(Physics.Raycast(transform.position, transform.forward, out hit, visionRange, OnlyPlayer))
         {
             if(hit.collider.CompareTag("Player") && !battleStarted)
             {
@@ -53,14 +57,20 @@ public class Start_Battle : MonoBehaviour
                 battleStarted = true;
                 //Walk_by_PointClick.canMove = false;
 
-                moveRangePos = player.transform.position;
-                moveRange.transform.position = moveRangePos;
+                enemy.GetComponent<AI_Patrulha>().IniciarCombate();
 
-                navOne.SetActive(false);
+                moveRangePos = player.transform.position;
+                moveArea.transform.position = moveRangePos + new Vector3(1, 0.05f, 0);
+                moveArea.SetActive(true);
+                //moveRange.transform.position = moveRangePos;
+
+                //navOne.SetActive(false);
 
                 // Camera
                 levelCam.SetActive(false);
                 battleCam.SetActive(true);
+
+                Walk_by_PointClick.onBattle = true;
             }
             else
             {

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Battle_AnswerStarter : MonoBehaviour
 {
@@ -17,6 +18,8 @@ public class Battle_AnswerStarter : MonoBehaviour
     public GameObject player;
     public GameObject enemy;
 
+    public NavMeshAgent agent;
+
     
 
     public void StartAnswers()
@@ -24,6 +27,9 @@ public class Battle_AnswerStarter : MonoBehaviour
         Walk_by_PointClick.canMove = false;
         player.transform.LookAt(enemy.transform);
         enemy.transform.LookAt(player.transform);
+
+        agent.isStopped = true;
+        agent.ResetPath();
 
 
         answer1.SetActive(true);

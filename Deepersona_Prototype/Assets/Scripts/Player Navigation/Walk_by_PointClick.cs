@@ -17,6 +17,10 @@ public class Walk_by_PointClick : MonoBehaviour
     public static bool canMove;
     public static bool stop;
 
+    public static bool onBattle;
+    public float maxDistance;
+
+
     void Start()
     {
         agent.updateRotation = false;
@@ -33,10 +37,26 @@ public class Walk_by_PointClick : MonoBehaviour
                 Ray ray = cam.ScreenPointToRay(Input.mousePosition);
                 RaycastHit hit;
 
+
                 if (Physics.Raycast(ray, out hit))
                 {
-                    // MOVE OUR AGENT
-                    agent.SetDestination(hit.point);
+                    if(onBattle)
+                    {
+                        Vector3 mag = Start_Battle.moveRangePos - hit.point;
+                        if(mag.magnitude < maxDistance)
+                        {
+                            agent.SetDestination(hit.point);
+                        }
+                        else
+                        {
+                            return;
+                        }
+                    }
+                    else
+                    {
+                        // MOVE OUR AGENT
+                        agent.SetDestination(hit.point);
+                    }
                 }
             }
         }
