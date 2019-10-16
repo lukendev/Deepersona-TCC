@@ -11781,7 +11781,6 @@ MonoBehaviour:
   agent: {fileID: 1986542814}
   player: {fileID: 1015243174}
   maxDistanciaCombate: 1
-  timeToAttack: 3
   enemyCam: {fileID: 1041092288}
   battleCam: {fileID: 1198575142}
 --- !u!4 &1986542816 stripped
