@@ -23,6 +23,17 @@ public class Enemy01 : MonoBehaviour
         
         currentMoral.value = moral;
 
+        if(moral <= 0)
+        {
+            
+        }
+
+        if (moral <= 0)
+        {
+            gameObject.GetComponent<AI_Patrulha>().Perder();
+            Walk_by_PointClick.canMove = true;
+            Walk_by_PointClick.onBattle = false;
+        }
     }
 
     public void Battle_Set()
@@ -42,7 +53,7 @@ public class Enemy01 : MonoBehaviour
         }
         else if(attackType == 3)
         {
-            moral -= (baseValue*1.33f);
+            moral -= (baseValue*4f);
         }
 
     }

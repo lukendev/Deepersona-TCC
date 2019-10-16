@@ -10,7 +10,7 @@ public class Elevator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        elevatorUI.SetActive(false);
     }
 
     // Update is called once per frame

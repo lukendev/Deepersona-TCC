@@ -5,9 +5,10 @@ using UnityEngine.UI;
 
 public class Battle_Player : MonoBehaviour
 {
-
+    public GameObject levelManager;
     public Slider currentMoral;
-    public float moral;
+    public Slider playerMoral;
+    public static float moral;
     public float baseDamage;
     public int currentAnxiety;
 
@@ -19,6 +20,17 @@ public class Battle_Player : MonoBehaviour
 
     public GameObject enemy;
 
+    //BOTÕES DE COMBATE
+    public GameObject empatiaButton;
+    public GameObject inteligenciaButton;
+    public GameObject agressivoButton;
+
+    void Start()
+    {
+        moral = 33;
+        playerMoral.maxValue = 33;
+        playerMoral.value = 33;
+    }
 
     public void Battle_Set()
     {
@@ -95,6 +107,8 @@ public class Battle_Player : MonoBehaviour
         battleCam.SetActive(false);
         playerActionCam.SetActive(true);
     }
+
+
     public void Give_Damage(int attackType)
     {
         battleCam.SetActive(true);
@@ -102,14 +116,29 @@ public class Battle_Player : MonoBehaviour
 
         Enemy01.Damage(baseDamage, attackType);
 
-        enemy.GetComponent<AI_Patrulha>().IniciarTurno();
+        StartCoroutine(TempoDeEspera());
+
+        empatiaButton.SetActive(false);
+        inteligenciaButton.SetActive(false);
+        agressivoButton.SetActive(false);
     }
 
+    public IEnumerator TempoDeEspera()
+    {
+
+        yield return new WaitForSeconds(2);
+        enemy.GetComponent<AI_Patrulha>().IniciarTurno();
+    }
 
 
     // Update is called once per frame
     void Update()
     {
-        
+        currentMoral.value = moral;
+
+        if (moral <= 0)
+        {
+            levelManager.GetComponent<MySceneManager>().Reload();
+        }
     }
 }

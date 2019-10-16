@@ -151,8 +151,8 @@ Transform:
   - {fileID: 1496418756}
   - {fileID: 322530007}
   - {fileID: 1670356926}
-  m_Father: {fileID: 1626792325}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9180162
 GameObject:
@@ -218,7 +218,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &63569186
 GameObject:
@@ -1842,7 +1842,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: "Recep\xE7\xE3o"
 --- !u!222 &274288947
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2035,7 +2035,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh118796
+  m_Name: pb_Mesh18660
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2533,7 +2533,7 @@ Transform:
   - {fileID: 1198575143}
   - {fileID: 1725468283}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &347113912
 GameObject:
@@ -3093,7 +3093,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &565811204
 GameObject:
@@ -3108,7 +3108,7 @@ GameObject:
   - component: {fileID: 565811207}
   - component: {fileID: 565811206}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: "Recep\xE7\xE3o"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3176,7 +3176,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 565811207}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 554317280}
+        m_MethodName: MyLoadSceneFast
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Recepcao
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &565811207
@@ -3559,7 +3570,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &726656553
 GameObject:
@@ -3893,7 +3904,7 @@ RectTransform:
   - {fileID: 2139159592}
   - {fileID: 127461631}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4559,12 +4570,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.2220112, y: 0.36514372, z: -0.09011447, w: 0.89958906}
+  m_LocalRotation: {x: 0.39889547, y: 0.44758892, z: -0.23320007, w: 0.76561373}
   m_LocalPosition: {x: 7.693021, y: 14.036943, z: 13.582838}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 21.558, y: -45.003002, z: 3.7170002}
 --- !u!114 &963194229
 MonoBehaviour:
@@ -4693,7 +4704,7 @@ MonoBehaviour:
   cam: {fileID: 963194227}
   agent: {fileID: 1015243178}
   character: {fileID: 1015243180}
-  maxDistance: 0
+  maxDistance: 1
 --- !u!4 &1015243176 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 94c9e3b07f172744383deef48c0113ec,
@@ -4733,7 +4744,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 2
-  m_BaseOffset: -0.06
+  m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!95 &1015243179 stripped
@@ -4804,14 +4815,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9af057d1b58e71f49b6f3d03c66b95fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
   currentMoral: {fileID: 680849833}
-  moral: 33
+  playerMoral: {fileID: 0}
   baseDamage: 11
   currentAnxiety: 1
   anim: {fileID: 1015243179}
   battleCam: {fileID: 1198575142}
   playerActionCam: {fileID: 1110477473}
   enemy: {fileID: 0}
+  empatiaButton: {fileID: 0}
+  inteligenciaButton: {fileID: 0}
+  agressivoButton: {fileID: 0}
 --- !u!1 &1026204438 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2433027247391814639, guid: 9a60d01bcdf151641b7a618a546a08bb,
@@ -4874,7 +4889,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1077099145 stripped
 Transform:
@@ -5018,7 +5033,7 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.11666667
+  m_VoxelSize: 0.1
   m_BuildHeightMesh: 0
   m_NavMeshData: {fileID: 23800000, guid: cd4319cff73e91d4188b46993351d18e, type: 2}
 --- !u!64 &1120191592
@@ -6939,7 +6954,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Escritorio
+          m_StringArgument: AreaComunitaria-Parque
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -7120,7 +7135,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Escrit\xF3rio"
+  m_Text: "\xC1rea Comum"
 --- !u!222 &1226038745
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7766,7 +7781,7 @@ Transform:
   m_Children:
   - {fileID: 1300476774}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1496418751
 GameObject:
@@ -8141,17 +8156,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 94c9e3b07f172744383deef48c0113ec,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.01
+      value: 12.04
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 94c9e3b07f172744383deef48c0113ec,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.613
+      value: 5.75
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 94c9e3b07f172744383deef48c0113ec,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 22.14
+      value: 16.03
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 94c9e3b07f172744383deef48c0113ec,
         type: 3}
@@ -8176,7 +8191,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 94c9e3b07f172744383deef48c0113ec,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 94c9e3b07f172744383deef48c0113ec,
         type: 3}
@@ -8739,6 +8754,7 @@ MonoBehaviour:
   answer2: {fileID: 848739788}
   answer3: {fileID: 398871671}
   enemyMoral: {fileID: 2145550439}
+  playerMoral: {fileID: 0}
   button: {fileID: 63569186}
   player: {fileID: 1015243174}
   enemy: {fileID: 310492090}
@@ -9117,7 +9133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AgentTypeID: 0
-  m_CollectObjects: 2
+  m_CollectObjects: 0
   m_Size: {x: 10, y: 10, z: 10}
   m_Center: {x: 0, y: 2, z: 0}
   m_LayerMask:
@@ -9130,9 +9146,9 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.11666667
+  m_VoxelSize: 0.1
   m_BuildHeightMesh: 0
-  m_NavMeshData: {fileID: 23800000, guid: 3248542c0c18fb34f97ed4fcfa4a86b9, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 634aff298f9d4154e9b736a6def641e0, type: 2}
 --- !u!4 &1626792325
 Transform:
   m_ObjectHideFlags: 0
@@ -9143,8 +9159,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 5166179}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9289,7 +9304,7 @@ Transform:
   m_Children:
   - {fileID: 1120191590}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1725468282
 GameObject:
@@ -9316,7 +9331,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1725468282}
   m_LocalRotation: {x: -0, y: -0.26906732, z: -0, w: 0.96312135}
-  m_LocalPosition: {x: 17.214989, y: 6.7855525, z: 16.386063}
+  m_LocalPosition: {x: 15.229987, y: 6.3540525, z: 13.331065}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 336012715}
@@ -9919,7 +9934,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1963349404}
-  m_LocalRotation: {x: 0.2220112, y: 0.36514372, z: -0.09011447, w: 0.89958906}
+  m_LocalRotation: {x: 0.39889547, y: 0.44758892, z: -0.23320007, w: 0.76561373}
   m_LocalPosition: {x: 1.9073563, y: 14.060495, z: 5.962947}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -10389,8 +10404,9 @@ MonoBehaviour:
   agent: {fileID: 1986542814}
   player: {fileID: 0}
   maxDistanciaCombate: 0
-  mag1: {x: 0, y: 0, z: 0}
-  mag2: {x: 0, y: 0, z: 0}
+  timeToAttack: 0
+  enemyCam: {fileID: 0}
+  battleCam: {fileID: 0}
 --- !u!114 &1986542817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10854,7 +10870,7 @@ PrefabInstance:
     - target: {fileID: 6160303505657143475, guid: 26edb00a8d8bcfa4a8e4f8fe9cc10f19,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 6160303505657143475, guid: 26edb00a8d8bcfa4a8e4f8fe9cc10f19,
         type: 3}
@@ -10928,7 +10944,7 @@ PrefabInstance:
     - target: {fileID: 8699856908997605681, guid: a531af0689ab6a44786cd0bb493e3c2b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 8699856908997605681, guid: a531af0689ab6a44786cd0bb493e3c2b,
         type: 3}

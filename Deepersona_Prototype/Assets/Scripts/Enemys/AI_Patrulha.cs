@@ -8,7 +8,7 @@ public class AI_Patrulha : MonoBehaviour
 {
     public static bool funcionando = true;
 
-    public enum ProtocoloDeDefesa { Patrulhar, Esperar, Perseguir, Combater, Atacar };
+    public enum ProtocoloDeDefesa { Patrulhar, Esperar, Perseguir, Combater, Atacar, Perder };
 
     public ProtocoloDeDefesa protocolo;
 
@@ -77,6 +77,8 @@ public class AI_Patrulha : MonoBehaviour
 
             case ProtocoloDeDefesa.Atacar: Atacando(); break;
 
+            case ProtocoloDeDefesa.Perder: break;
+
             default: break;
         }
 
@@ -116,8 +118,10 @@ public class AI_Patrulha : MonoBehaviour
 
     public IEnumerator WaitAttack()
     {
+        transform.LookAt(player.transform.position);
         yield return new WaitForSeconds(timeToAttack);
         protocolo = ProtocoloDeDefesa.Atacar;
+        StopAllCoroutines();
 
     }
 
@@ -170,6 +174,7 @@ public class AI_Patrulha : MonoBehaviour
     {
         protocolo = ProtocoloDeDefesa.Combater;
         defensor.isStopped = false;
+        pontoInicial = transform.position;
     }
 
     public void Combatendo()
@@ -186,18 +191,34 @@ public class AI_Patrulha : MonoBehaviour
         {
             protocolo = ProtocoloDeDefesa.Esperar; //para o inimigo
             defensor.isStopped = true;
+
+            print("ho");
+
+            StartCoroutine(WaitAttack());
+
         }
 
         if (mag2.magnitude >= maxDistanciaCombate) //se o inimigo passou do limite de andar, ele para
         {
             protocolo = ProtocoloDeDefesa.Esperar; //para o inimigo
             defensor.isStopped = true;
+
+            print("hey");
             
             StartCoroutine(WaitAttack());
         }
 
     }
 
+    public void Perder()
+    {
+        protocolo = ProtocoloDeDefesa.Perder;
+        StopAllCoroutines();
+        defensor.isStopped = true;
+
+    }
+
+    /* 
     public void OnTriggerEnter(Collider col)
     {
        
@@ -212,5 +233,6 @@ public class AI_Patrulha : MonoBehaviour
         }
 
     }
+    */
    
 }
