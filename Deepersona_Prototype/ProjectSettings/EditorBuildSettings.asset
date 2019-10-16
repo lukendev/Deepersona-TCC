@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Loading.unity
     guid: a071da05d17151441af0ff1001cd316e
+  - enabled: 1
+    path: Assets/Scenes/Escritorio.unity
+    guid: 166e46004ab4fb340924a12cfe4ea2d2
   m_configObjects: {}

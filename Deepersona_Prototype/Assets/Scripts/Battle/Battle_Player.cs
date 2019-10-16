@@ -17,6 +17,8 @@ public class Battle_Player : MonoBehaviour
     public GameObject battleCam;
     public GameObject playerActionCam;
 
+    public GameObject enemy;
+
 
     public void Battle_Set()
     {
@@ -99,6 +101,8 @@ public class Battle_Player : MonoBehaviour
         playerActionCam.SetActive(false);
 
         Enemy01.Damage(baseDamage, attackType);
+
+        enemy.GetComponent<AI_Patrulha>().IniciarTurno();
     }
 
 

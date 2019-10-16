@@ -8,7 +8,7 @@ public class AI_Patrulha : MonoBehaviour
 {
     public static bool funcionando = true;
 
-    public enum ProtocoloDeDefesa { Patrulhar, Esperar, Perseguir, Combater };
+    public enum ProtocoloDeDefesa { Patrulhar, Esperar, Perseguir, Combater, Atacar };
 
     public ProtocoloDeDefesa protocolo;
 
@@ -38,6 +38,16 @@ public class AI_Patrulha : MonoBehaviour
 
     private Vector3 pontoInicial;
 
+    public float timeToAttack;
+
+
+    // CAMERAS
+    public GameObject enemyCam;
+    public GameObject battleCam;
+
+    // ANIMAÇÃO
+    Animator anim;
+
     // Use this for initialization
     void Start()
     {
@@ -46,6 +56,8 @@ public class AI_Patrulha : MonoBehaviour
         protocolo = ProtocoloDeDefesa.Patrulhar;
         defensor.SetDestination(pontoDePatrulha[numeroDoPonto].position);
         alvo = null;
+
+        anim = GetComponent<Animator>();
     }
 
 
@@ -60,6 +72,10 @@ public class AI_Patrulha : MonoBehaviour
             case ProtocoloDeDefesa.Esperar: break;
 
             case ProtocoloDeDefesa.Perseguir: Perseguindo(); break;
+
+            case ProtocoloDeDefesa.Combater: Combatendo(); break;
+
+            case ProtocoloDeDefesa.Atacar: Atacando(); break;
 
             default: break;
         }
@@ -98,6 +114,13 @@ public class AI_Patrulha : MonoBehaviour
         }
     }
 
+    public IEnumerator WaitAttack()
+    {
+        yield return new WaitForSeconds(timeToAttack);
+        protocolo = ProtocoloDeDefesa.Atacar;
+
+    }
+
     public IEnumerator TempoDeEspera()
     {
 
@@ -113,6 +136,15 @@ public class AI_Patrulha : MonoBehaviour
         defensor.isStopped = false;
         protocolo = ProtocoloDeDefesa.Patrulhar;
 
+    }
+
+    public void Atacando()
+    {
+        enemyCam.SetActive(true);
+        battleCam.SetActive(false);
+
+        anim.SetTrigger("AgressivaEnemy");
+        protocolo = ProtocoloDeDefesa.Esperar;
     }
 
     public void Perseguindo()
@@ -156,10 +188,12 @@ public class AI_Patrulha : MonoBehaviour
             defensor.isStopped = true;
         }
 
-        if (mag1.magnitude <= maxDistanciaCombate) //se o inimigo passou do limite de andar, ele para
+        if (mag2.magnitude >= maxDistanciaCombate) //se o inimigo passou do limite de andar, ele para
         {
             protocolo = ProtocoloDeDefesa.Esperar; //para o inimigo
             defensor.isStopped = true;
+            
+            StartCoroutine(WaitAttack());
         }
 
     }
