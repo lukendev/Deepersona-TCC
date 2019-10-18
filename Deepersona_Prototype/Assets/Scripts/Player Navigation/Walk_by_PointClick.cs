@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.EventSystems;
 using UnityStandardAssets.Characters.ThirdPerson;
 
 public class Walk_by_PointClick : MonoBehaviour
@@ -34,28 +35,32 @@ public class Walk_by_PointClick : MonoBehaviour
         {
             if(Input.GetMouseButtonDown(0))
             {
-                Ray ray = cam.ScreenPointToRay(Input.mousePosition);
-                RaycastHit hit;
 
-
-                if (Physics.Raycast(ray, out hit))
+                if (!EventSystem.current.IsPointerOverGameObject())
                 {
-                    if(onBattle)
+                    Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+                    RaycastHit hit;
+
+
+                    if (Physics.Raycast(ray, out hit))
                     {
-                        Vector3 mag = Start_Battle.moveRangePos - hit.point;
-                        if(mag.magnitude < maxDistance)
+                        if (onBattle)
                         {
-                            agent.SetDestination(hit.point);
+                            Vector3 mag = Start_Battle.moveRangePos - hit.point;
+                            if (mag.magnitude < maxDistance)
+                            {
+                                agent.SetDestination(hit.point);
+                            }
+                            else
+                            {
+                                return;
+                            }
                         }
                         else
                         {
-                            return;
+                            // MOVE OUR AGENT
+                            agent.SetDestination(hit.point);
                         }
-                    }
-                    else
-                    {
-                        // MOVE OUR AGENT
-                        agent.SetDestination(hit.point);
                     }
                 }
             }
