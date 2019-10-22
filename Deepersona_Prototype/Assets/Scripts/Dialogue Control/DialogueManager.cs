@@ -11,15 +11,34 @@ public class DialogueManager : MonoBehaviour {
 	public Animator animator;
 
 	private Queue<string> sentences;
+    public Button[] answers;
+    public Button continueButton;
+
+    public bool isThereChoice;
+    public GameObject currentDialogue;
+    public Choices choosers;
 
 	// Use this for initialization
 	void Start () {
 		sentences = new Queue<string>();
+
+        foreach (Button but in answers)
+        {
+            but.GetComponentInChildren<Text>().text = "";
+            but.gameObject.SetActive(false);
+        }
 	}
 
 	public void StartDialogue (Dialogue dialogue)
 	{
-		animator.SetBool("IsOpen", true);
+        foreach (Button but in answers)
+        {
+            but.gameObject.SetActive(false);
+        }
+
+        continueButton.gameObject.SetActive(true);
+
+        animator.SetBool("IsOpen", true);
 
 		nameText.text = dialogue.name;
 
@@ -33,10 +52,31 @@ public class DialogueManager : MonoBehaviour {
 		DisplayNextSentence();
 	}
 
-	public void DisplayNextSentence ()
+    public void setAnswers(Choices choices)
+    {
+        for(int i = 0; i <= answers.Length-1; i++)
+        {
+            answers[i].GetComponentInChildren<Text>().text = choices.possbileAnswers[i];
+        }
+    }
+
+    public void DisplayNextSentence ()
 	{
 		if (sentences.Count == 0)
 		{
+            if (isThereChoice)
+            {
+                foreach (Button but in answers)
+                {
+                    but.gameObject.SetActive(true);
+                }
+
+                continueButton.gameObject.SetActive(false);
+                isThereChoice = false;
+
+                return;
+            }
+
 			EndDialogue();
 			return;
 		}
@@ -56,9 +96,71 @@ public class DialogueManager : MonoBehaviour {
 		}
 	}
 
-	void EndDialogue()
+	public void EndDialogue()
 	{
 		animator.SetBool("IsOpen", false);
 	}
+
+    private void quickFix()
+    {
+        foreach (Button but in answers)
+        {
+            but.gameObject.SetActive(false);
+        }
+
+        continueButton.gameObject.SetActive(true);
+    }
+
+    public void StartFeedback1()
+    {
+        Choices choices;
+        choices = choosers;
+        currentDialogue.gameObject.GetComponent<DialogueTrigger>().dontChange = 1;
+        currentDialogue.gameObject.GetComponent<DialogueTrigger>().isThereChoice = false;
+        quickFix();
+        sentences.Clear();
+
+        foreach (string sentence in choices.feedback1)
+        {
+            sentences.Enqueue(sentence);
+        }
+
+        DisplayNextSentence();
+    }
+
+    public void StartFeedback2()
+    {
+        Choices choices;
+        choices = choosers;
+        currentDialogue.gameObject.GetComponent<DialogueTrigger>().dontChange = 2;
+        currentDialogue.gameObject.GetComponent<DialogueTrigger>().isThereChoice = false;
+        quickFix();
+        sentences.Clear();
+
+        foreach (string sentence in choices.feedback2)
+        {
+            sentences.Enqueue(sentence);
+        }
+
+        DisplayNextSentence();
+    }
+
+    public void StartFeedback3()
+    {
+        Choices choices;
+        choices = choosers;
+        currentDialogue.gameObject.GetComponent<DialogueTrigger>().dontChange = 3;
+        currentDialogue.gameObject.GetComponent<DialogueTrigger>().isThereChoice = false;
+        quickFix();
+        sentences.Clear();
+
+
+        foreach (string sentence in choices.feedback3)
+        {
+            sentences.Enqueue(sentence);
+        }
+
+        DisplayNextSentence();
+    }
 
 }
