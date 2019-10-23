@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AreaComunitaria-Parque.unity
     guid: 25e01546a9a4cad4682ded58f5c5922e
+  - enabled: 1
+    path: "Assets/Scenes/Cena01_\xC1reaComunit\xE1ria.unity"
+    guid: b93acc34b3bd36a4db1e47dc9f15c2d4
   m_configObjects: {}

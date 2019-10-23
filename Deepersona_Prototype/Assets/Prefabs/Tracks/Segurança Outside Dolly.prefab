@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3861564957304615993
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3861564957304615992}
+  - component: {fileID: 3861564957304615991}
+  m_Layer: 0
+  m_Name: DollyTrack1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3861564957304615992
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3861564957304615993}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 15.1, y: 2, z: 5.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3861564957304615991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3861564957304615993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a200b19ca1a9685429ed7e043c28e904, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Resolution: 20
+  m_Appearance:
+    pathColor: {r: 0, g: 1, b: 0, a: 1}
+    inactivePathColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    width: 0.2
+  m_Looped: 1
+  m_Waypoints:
+  - position: {x: -23.623095, y: 1, z: 0.72789}
+    roll: 0
+  - position: {x: -22.30268, y: 1, z: 7.686472}
+    roll: 0
+  - position: {x: -14.7649, y: 1, z: 13.642481}
+    roll: 0
+  - position: {x: 11.089043, y: 1, z: 13.964092}
+    roll: 0
+  - position: {x: 15.517937, y: 1, z: 7.8964615}
+    roll: 0
+  - position: {x: 21.71151, y: 1, z: -4.4528837}
+    roll: 0
+  - position: {x: 18.13832, y: 1, z: -13.961424}
+    roll: 0
+  - position: {x: 9.142906, y: 1, z: -15.572237}
+    roll: 0
+  - position: {x: -0.7604046, y: 1, z: -15.401434}
+    roll: 0
+  - position: {x: -2.7892685, y: 1, z: -16.81782}
+    roll: 0
+  - position: {x: -4.7971897, y: 1, z: -19.828833}
+    roll: 0
+  - position: {x: -9.753935, y: 1, z: -21.374287}
+    roll: 0
+  - position: {x: -14.277779, y: 1, z: -18.844877}
+    roll: 0
+  - position: {x: -14.3647995, y: 1, z: -11.6975765}
+    roll: 0
+  - position: {x: -20.831617, y: 1, z: -4.4612036}
+    roll: 0
