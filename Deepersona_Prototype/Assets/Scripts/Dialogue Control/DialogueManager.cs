@@ -18,6 +18,7 @@ public class DialogueManager : MonoBehaviour {
     public GameObject currentDialogue;
     public Choices choosers;
 
+
 	// Use this for initialization
 	void Start () {
 		sentences = new Queue<string>();
@@ -99,6 +100,13 @@ public class DialogueManager : MonoBehaviour {
 	public void EndDialogue()
 	{
 		animator.SetBool("IsOpen", false);
+
+        // LUCAS: mudando aqui porque nesse caso vai ser a primeira fala. Verificar script Cena01_Setup.
+        if(!Cena01_Setup.comecou)
+        {
+            Cena01_Setup.comecou = true;
+        }
+        // ----------------
 	}
 
     private void quickFix()

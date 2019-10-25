@@ -31,6 +31,10 @@ public class Elevador : MonoBehaviour
     public GameObject elevatorCam;
     // ----------------------------------
 
+    // Intro da recepção
+    public GameObject recepcaoIntro;
+    // -----------------------
+
 
     void OnTriggerEnter(Collider other)
     {
@@ -80,5 +84,6 @@ public class Elevador : MonoBehaviour
         levelCam.SetActive(true);
         elevatorCam.SetActive(false);
         player.GetComponent<NavMeshAgent>().isStopped = false;
+        recepcaoIntro.SetActive(true);
     }
 }
