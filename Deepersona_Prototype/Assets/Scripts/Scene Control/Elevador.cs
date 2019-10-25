@@ -42,12 +42,11 @@ public class Elevador : MonoBehaviour
             voltarButton.SetActive(true);
             levelCam.SetActive(false);
             elevatorCam.SetActive(true);
-            player.gameObject.transform.LookAt(pontoVisao.transform);
             if(escritorioLiberado)
             {
                 escritorioButton.SetActive(true);
             }
-            player.GetComponent<NavMeshAgent>().isStopped = true;
+            StartCoroutine(ReposicionaElevador());
         }
     }
 
@@ -57,6 +56,19 @@ public class Elevador : MonoBehaviour
         {
             entered = false;
         }
+    }
+
+    void TeleportaPlayer()
+    {
+        player.GetComponent<NavMeshAgent>().isStopped = true;
+        player.transform.position = new Vector3(6.32f, 0.02f, 14.12f);
+        player.transform.rotation = Quaternion.Euler(0, -271, 0);
+    }
+
+    public IEnumerator ReposicionaElevador()
+    {
+        yield return new WaitForSeconds(.4f);
+        TeleportaPlayer();
     }
 
     public void DesligaBotoes()

@@ -31,7 +31,7 @@ public class Enemy01 : MonoBehaviour
         if (moral <= 0)
         {
             gameObject.GetComponent<AI_Patrulha>().Perder();
-            Walk_by_PointClick.canMove = true;
+            //Walk_by_PointClick.canMove = true;
             Walk_by_PointClick.onBattle = false;
         }
     }
