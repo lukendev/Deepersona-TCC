@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Area_01
+  - Area_02
   layers:
   - Default
   - TransparentFX
@@ -20,7 +22,7 @@ TagManager:
   - Wall
   - Walkable
   - Not Walkable
-  - 
+  - CamArea
   - 
   - 
   - 

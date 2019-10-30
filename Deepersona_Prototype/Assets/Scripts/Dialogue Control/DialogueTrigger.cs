@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class DialogueTrigger : MonoBehaviour {
 
-	public Dialogue dialogue;
+    public Dialogue dialogue;
     public bool isThereChoice;
+    public bool isThereBattle;
     public Choices choices;
-    public int dontChange = 0;
+    public int dontChange = 0; 
+
+
 
     public void TriggerDialogue ()
 	{
@@ -44,8 +47,14 @@ public class DialogueTrigger : MonoBehaviour {
 
     public void OnTriggerEnter(Collider col)
     {
-    
+
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+
+        if (isThereBattle)
+        {
+            FindObjectOfType<DialogueManager>().isBattleManager = true;
+        }
+
         if (isThereChoice)
         {
             FindObjectOfType<DialogueManager>().currentDialogue = gameObject;

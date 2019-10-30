@@ -18,6 +18,9 @@ public class DialogueManager : MonoBehaviour {
     public GameObject currentDialogue;
     public Choices choosers;
 
+    public bool isBattleManager;
+    public GameObject battleManager;
+
 
 	// Use this for initialization
 	void Start () {
@@ -79,6 +82,9 @@ public class DialogueManager : MonoBehaviour {
             }
 
 			EndDialogue();
+            if (isBattleManager) { battleManager.GetComponent<Battle_Manager>().StartBattle();
+                isBattleManager = false;
+            }
 			return;
 		}
 
