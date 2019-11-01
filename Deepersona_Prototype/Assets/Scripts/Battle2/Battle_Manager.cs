@@ -23,6 +23,7 @@ public class Battle_Manager : MonoBehaviour
 
         // MOSTRA HUDS -------------------
         playerMoral.SetActive(true);
+        enemyMoral.SetActive(true);
         playerAttacksHud.SetActive(true);
         // -------------------------------
     }

@@ -14,6 +14,7 @@ public class NPC_Icones_Mostrando : MonoBehaviour
     public GameObject talkOffIcon;
     public GameObject infoOffIcon;
 
+    public GameObject secretariaMenu;
 
     [SerializeField]
     public static bool onRange;
@@ -56,12 +57,23 @@ public class NPC_Icones_Mostrando : MonoBehaviour
 
     private void OnMouseExit()
     {
-            battleOnIcon.SetActive(false);
-            talkOnIcon.SetActive(false);
-            infoOnIcon.SetActive(false);
+        battleOnIcon.SetActive(false);
+        talkOnIcon.SetActive(false);
+        infoOnIcon.SetActive(false);
 
-            battleOffIcon.SetActive(false);
-            talkOffIcon.SetActive(false);
-            infoOffIcon.SetActive(false);
+        battleOffIcon.SetActive(false);
+        talkOffIcon.SetActive(false);
+        infoOffIcon.SetActive(false);
+    }
+
+
+    void OnMouseDown()
+    {
+        if(onRange)
+        {
+            secretariaMenu.SetActive(true);
+            Walk_by_PointClick.canMove = false;
+        }
+        Walk_by_PointClick.stop = true;
     }
 }

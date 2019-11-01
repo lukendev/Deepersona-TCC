@@ -20,6 +20,7 @@ public class DialogueManager : MonoBehaviour {
 
     public bool isBattleManager;
     public GameObject battleManager;
+    public GameObject dialogueBox;
 
 
 	// Use this for initialization
@@ -111,6 +112,11 @@ public class DialogueManager : MonoBehaviour {
         if(!Cena01_Setup.comecou)
         {
             Cena01_Setup.comecou = true;
+        }
+        dialogueBox.SetActive(false);
+        if(Secretaria_Conversa_Cena01.conversou)
+        {
+            Secretaria_Conversa_Cena01.recomeca = true;
         }
         // ----------------
 	}
